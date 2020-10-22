@@ -1,7 +1,9 @@
-// import 
+import Shape from "./shape";
 
-// declare class
-
-
-// export
-
+export default class Circle extends Shape {
+  construction(color) {
+    super(color);
+  }
+  drawShape = function () {};
+  calculateArea = function () {};
+}

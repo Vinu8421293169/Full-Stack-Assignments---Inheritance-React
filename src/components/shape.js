@@ -1,3 +1,12 @@
-// declare class
+import React from "react";
 
-// export class
+export default class Circle {
+  color = null;
+
+  constructor(color) {
+    this.color = color;
+  }
+
+  calculateArea = function () {};
+  drawShape = function () {};
+}
